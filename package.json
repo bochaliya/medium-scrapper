@@ -1,0 +1,31 @@
+{
+  "name": "medium-scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bochaliya/medium-scrapper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bochaliya/medium-scrapper/issues"
+  },
+  "homepage": "https://github.com/bochaliya/medium-scrapper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "express": "^4.17.1",
+    "https": "^1.0.0",
+    "nodemon": "^2.0.7",
+    "pg": "^8.5.1",
+    "puppeteer": "^7.1.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "url": "^0.11.0"
+  }
+}
